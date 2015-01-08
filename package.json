@@ -1,0 +1,12 @@
+{
+  "name": "able-projects",
+  "version": "1.0.0",
+  "description": "registry for mozilla able projects",
+  "main": "index.js",
+  "author": "Mozilla",
+  "license": "MPL 2.0",
+  "dependencies": {
+    "fxa_content_server": "git://github.com/dannycoates/able-fxa-content-server.git",
+    "glob": "4.3.2"
+  }
+}
