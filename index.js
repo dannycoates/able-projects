@@ -10,7 +10,10 @@ function loadExperiments(projectName) {
     var filename = filenames[i]
     experiments.push(require(filename))
   }
-  return experiments
+  return {
+    experiments: experiments,
+    defaults: require(path.resolve(basePath, 'defaults.json'))
+  }
 }
 
 var projects = {}
