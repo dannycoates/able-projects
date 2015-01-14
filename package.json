@@ -7,6 +7,7 @@
   "license": "MPL 2.0",
   "dependencies": {
     "fxa_content_server": "git://github.com/dannycoates/able-fxa-content-server.git",
+    "demo": "git://github.com/dannycoates/able-demo.git",
     "glob": "4.3.2"
   }
 }
